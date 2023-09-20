@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Егор Киселев](https://up.htmlacademy.ru/htmlcss/38/user/2080835).
-* Наставник: `Неизвестно`.
+* Наставник: `[Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya)`.
 
 ---
 
