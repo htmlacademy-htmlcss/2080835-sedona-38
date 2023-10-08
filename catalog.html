@@ -4,6 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>HTML Academy: Седона</title>
+        <link rel="stylesheet" href="styles/styles.css">
     </head>
 
     <body>
@@ -68,7 +69,7 @@
                             </li>
                             <li class="catalog-filter-item">
                                 <label class="control">
-                                    <input class="control-input" type="checkbox" name="parking" checked>Парковка>
+                                    <input class="control-input" type="checkbox" name="parking" checked>Парковка
                                 </label>
                             </li>
                             <li class="catalog-filter-item">
@@ -98,10 +99,10 @@
                             </li>
                         </ul>
                     </fieldset>
-                    <button class="button" type="submit">Применить</button>
+                    <button class="button-blue" type="submit">Применить</button>
                 </form>
                 <select class="select-control" aria-label="Сортировка">
-                    <option value="popular">Сначала популярные></option>
+                    <option value="popular">Сначала популярные</option>
                     <option value="cheap">Сначала дешёвые</option>
                     <option value="expensive">Сначала дорогое</option>
                 </select>
@@ -120,7 +121,7 @@
                     </a>
                     <b class="hotel-card-price">От 4000 Р</b>
                     <a class="hotel-card-button" href="#">Подробнее</a>
-                    <a class="hotel-card-button" href="#">В избранное</a>
+                    <a class="hotel-card-button-blue" href="#">В избранное</a>
 
                 </li>
                 <li class="hotel-card">
@@ -140,7 +141,7 @@
                     </a>
                     <b class="hotel-card-price">От 2500 Р</b>
                     <a class="hotel-card-button" href="#">Подробнее</a>
-                    <a class="hotel-card-button" href="#">В избранное</a>
+                    <a class="hotel-card-button-blue" href="#">В избранное</a>
                 </li>
                 <li class="hotel-card">
                     <a class="hotel-card-link" href="product.html">
@@ -149,15 +150,13 @@
                     </a>
                     <b class="hotel-card-price">От 1500 Р</b>
                     <a class="hotel-card-button" href="#">Подробнее</a>
-                    <a class="hotel-card-button" href="#">В избранное</a>
+                    <a class="hotel-card-button-blue" href="#">В избранное</a>
                 </li>
             </ul>
             <ul class="pagination">
                 <li class="pagination-item">
                     <a class="pagination-link pagination-prev pagination-disabled">
-                        <span class="visually-hidden">Предыдущая страница</span>
                     </a>
-                </li>
                 </li>
                 <li class="pagination-item">
                     <a class="pagination-link pagination-current">1</a>
@@ -173,6 +172,9 @@
                 </li>
                 <li class="pagination-item">
                     <a class="pagination-link" href="#">...</a>
+                </li>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">10</a>
                 </li>
             </ul>
         </main>
@@ -204,8 +206,9 @@
                 <a class="contact-phone" href="tel:+78128121212">+7(812)812-12-12</a>
             </address>
             <section class="footer-logo">
-                <a class="footer-logo-item" href="https://htmlacademy.ru/"></a>
-                <img class="logo-academy" src="images/HTML Academy.jpg">
+                <a class="footer-logo-item" href="https://htmlacademy.ru/">
+                    <img class="logo-academy" src="images/html-logo.svg">
+                </a>
             </section>
         </footer>
     </body>
