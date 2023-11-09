@@ -31,6 +31,17 @@ body {
     color: #333333;
 }
 
+.visually_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .button {
     display: inline-block;
     font-family: inherit;
@@ -432,6 +443,7 @@ p {
 
 
 
+
 .catalog-filter {
     display: flex;
     margin: 0 70px;
@@ -477,7 +489,21 @@ p {
     padding: 0;
 }
 
-.button-filter {
+.range-input {
+    width: 143px;
+    height: 48px;
+    background-color: transparent;
+    border: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 12px 20px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+. .button-filter {
     width: 191px;
     display: flex;
     flex-direction: column;
